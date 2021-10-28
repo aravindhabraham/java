@@ -12,3 +12,13 @@
          System.out.println(addition.add("B","M","W"));
      }
 }
+
+
+//  static int add (int a, int b)
+// 	 static long add (int a, int b)  => compile time error
+	  
+// 	 add(int a, long b)
+// 	 add (long a, long b)  => no error , Method overloading with type promotion
+	 
+// 	  add(int a, int b)
+// 	 add (long a, long b)    =>  no error , Method overloading with type promotion
